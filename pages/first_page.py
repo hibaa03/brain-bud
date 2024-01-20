@@ -3,7 +3,7 @@ import streamlit as st
 from clarifai.client.model import Model
 import base64
 import os
-from dotenv import load_dotenv
+
 from PIL import Image
 from clarifai.client.auth import create_stub
 from clarifai.client.auth.helper import ClarifaiAuthHelper
